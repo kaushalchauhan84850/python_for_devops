@@ -1,5 +1,5 @@
 print("hii i am your calculator")
-task = input("what do you want to do? (add, subtract, multiply, divide): ")
+task = input("what do you want to do? (add, sub, multi, div): ")
 
 if task == "add":
     num1 = float(input("enter your number to add:"))
@@ -7,19 +7,19 @@ if task == "add":
     result = num1 + num2
     print("your added value is:" , result)
  
-elif task == "subtract":
+elif task == "sub":
     num1 = float(input("enter your first number to subtract:"))
     num2 = float(input("enter your second number to subtract:"))
     result = num1 - num2
     print("your subtrated value is:"  , result)
     
-elif task == "multiply":
+elif task == "multi":
     num1 = float(input("enter your first number to multiply:"))
     num2 = float(input("enter your second number to multiply:"))
     result = num1 * num2
     print("your multiplied value is:" , result)
     
-elif task == "divide":
+elif task == "div":
     num1 = float(input("enter your first number to divide:"))
     num2 = float(input("enter your second number to divide:"))
     if num2 != 0:
@@ -28,3 +28,5 @@ elif task == "divide":
     else:
         print("Error: Cannot divide by zero.")
     
+else:
+ print("you made a wrong choice")
