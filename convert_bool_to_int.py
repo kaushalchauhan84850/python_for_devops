@@ -1,5 +1,8 @@
 convert = bool(input("Enter a boolean value (True/False): "))
-if convert == True:
-    print(1)
+print(f"You entered: {convert} (type: {type(convert)})")
+if convert == "True":
+    print("1")
 else:
-    print(0)
+    print("0")
+    convert = int(convert)
+    print(type(convert))
