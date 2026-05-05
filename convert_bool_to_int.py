@@ -1,8 +1,13 @@
-convert = bool(input("Enter a boolean value (True/False): "))
-print(f"You entered: {convert} (type: {type(convert)})")
-if convert == "True":
-    print("1")
+convert = input("Enter True or False: ").strip().lower()
+
+if convert == "true":
+    convert = True
+elif convert == "false":
+    convert = False
 else:
-    print("0")
-    convert = int(convert)
-    print(type(convert))
+    print("Invalid input")
+    exit()
+
+print(f"You entered: {convert} (type: {type(convert)})")
+
+print(1 if convert else 0)
