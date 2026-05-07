@@ -1,0 +1,19 @@
+always remember 
+
+A :- application 
+S :- service
+K :- karnal
+
+Linux :- linux is an open source operating system kernal created by linus Torvalds it is the foundation of many operationg system ('distors', 'distribution')
+like :- ubuntu , CentOS , redhat ,debian and alipne .
+
+Linux is free , highly coustimizable and designed for stability on performance and highly secured 
+
+linux used in devops :-- 
+1. server and infra management 
+2. sell scripting and automation 
+3. containerization (Docker and kubernatica)
+4. CI/CD pipeline 
+5. networking and secuatity 
+6. monitoring and logging 
+7. package and dependency management
