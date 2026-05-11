@@ -9,8 +9,9 @@ attendance_persentage = float((classes_attended/total_classes)*100)
 if attendance_persentage < 75.0:
     print(f"{"-"*40}\n{studet_name} in class {student_class}\nhaving roll number{student_roll_number}\nis not eligible for the examination.\n{"-"*40}")
         
-    if attendance_persentage < 75.0:
-        ghoos = int(input("enter 1 to get a secret message:"))
+    # if attendance_persentage < 75.0:
+    ghoos = int(input("enter 1 to get a secret message:"))
+    if ghoos == 1:
         print(f"{"-"*40}\n500 rupee mere number pe googal pay krdo kaam ho jayega \n{"-"*40}")    
     else:
         print("1 dabana kaha tha bhaiya:")    
